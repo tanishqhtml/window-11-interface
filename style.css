@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('photo-1554050857-c84a8abdb5e2.jpg');
+    /*background-size: cover;*/
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 110;
+}
+.start{
+    position: absolute;
+    /*bottom: 52px;*/
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s ease-in;
+    
+}
+.start img{
+    border-radius: 8px;
+}
+.right{
+  justify-self: flex-end;
+  position: absolute;
+  right: 0%;
+  margin: 6px 0;
+  height: 85%;
+}
+.icon{
+    color: white;
+}
